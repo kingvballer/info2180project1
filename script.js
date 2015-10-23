@@ -1,19 +1,19 @@
 // JavaScript File
-var bob = {
-firstName: "Bob",
-lastName: "Jones",
-phoneNumber: "(650) 777-7777",
-email: "bob.jones@example.com"
+var alrick = {
+firstName: "Alrick",
+lastName: "Brown",
+phoneNumber: "(876) 999-9999",
+email: "alrick.brown@email.com"
 };
 
-var mary = {
-firstName: "Mary",
-lastName: "Johnson",
-phoneNumber: "(650) 888-8888",
-email: "mary.johnson@example.com"
+var jodi = {
+firstName: "Jodi",
+lastName: "Mason",
+phoneNumber: "(876) 999-9999",
+email: "jodi.mason@email.com"
 };
 
-var contacts = [bob, mary];
+var contacts = [alrick, jodi];
 
 function printPerson(person) {
     document.write(person.firstName + " " + person.lastName);
